@@ -70,6 +70,7 @@ function App() {
               fontSize: "16px",
               lineHeight: 2.01,
               letterSpacing: "0.038em",
+              textAlign: "left",
             }}
           >
             After one year as part of the Academic Learning Space
@@ -102,6 +103,7 @@ function App() {
             fontSize: "16px",
             lineHeight: 1.82,
             letterSpacing: "0.07em",
+            textAlign: "left",
           }}
         >
           You have supported not only us students but also Ricky as
