@@ -11,6 +11,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 function ProjectCarousel({ projects = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Don't render anything if there are no projects
   if (projects.length === 0) {
     return null;
   }
@@ -35,6 +36,7 @@ function ProjectCarousel({ projects = [] }) {
       sx={{
         position: "relative",
         width: "100%",
+        maxWidth: "900px",
         height: "100%",
         mx: "auto",
       }}
@@ -47,9 +49,9 @@ function ProjectCarousel({ projects = [] }) {
           alt={currentProject.alt || `Project ${currentIndex + 1}`}
           sx={{
             width: "100%",
-            height: "100%",
             objectFit: "cover",
             display: "block",
+            borderRadius: "8px",
           }}
         />
       )}
@@ -57,20 +59,25 @@ function ProjectCarousel({ projects = [] }) {
       {/* Iframe */}
       {currentProject.iframeUrl && (
         <Box
-          component="iframe"
-          src={currentProject.iframeUrl}
-          title={
-            currentProject.iframeTitle ||
-            `Project ${currentIndex + 1}`
-          }
           sx={{
             width: "100%",
-            height: "100%",
-            minHeight: "600px",
-            border: "none",
-            display: "block",
+            height: "500px",
+            overflow: "hidden",
+            borderRadius: "8px",
           }}
-        />
+        >
+          <Box
+            component="iframe"
+            src={currentProject.iframeUrl}
+            title={currentProject.iframeTitle || `Project ${currentIndex + 1}`}
+            sx={{
+              width: "100%",
+              height: "100%",
+              border: "none",
+              display: "block",
+            }}
+          />
+        </Box>
       )}
 
       {/* Text */}
@@ -94,12 +101,11 @@ function ProjectCarousel({ projects = [] }) {
           aria-label="Previous project"
           sx={{
             position: "absolute",
-            left: "15px",
+            left: "1px",
             top: "50%",
             transform: "translateY(-50%)",
             backgroundColor: "white",
             color: "black",
-            zIndex: 2,
             "&:hover": {
               backgroundColor: "#eeeeee",
             },
@@ -121,7 +127,6 @@ function ProjectCarousel({ projects = [] }) {
             transform: "translateY(-50%)",
             backgroundColor: "white",
             color: "black",
-            zIndex: 2,
             "&:hover": {
               backgroundColor: "#eeeeee",
             },

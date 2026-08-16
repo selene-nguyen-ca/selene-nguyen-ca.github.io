@@ -4,6 +4,7 @@ import ALSSPart1aImage from "../../../assets/ALSS1a.png";
 import ALSSPart1bImage from "../../../assets/ALSS1b.png";
 import ALSSPart3Image from "../../../assets/ALSS3.png";
 import WorkSnapshotImage from "../../../assets/WS.png";
+import PULSECHECKDOCUMENT from "../../../assets/documents/PULSE_CHECK_REPORT.pdf";
 
 const projects = [
   {
@@ -20,12 +21,12 @@ const projects = [
   },
   {
     text: "Sample of the tableu visualization of the data collected from ALSS activities. Presented by Ricky Mahl, AV Lead prepared by me",
-    iframeUrl: "https://public.tableau.com/views/Book2_17606364963960/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    iframeUrl: "https://public.tableau.com/views/Book2_17606364963960/Story1?:showVizHome=no&:embed=true"
 
   },
   {
      text: "Sample of the report generated from the data collected from ALSS activities. Presented by Ricky Mahl, AV Lead prepared by me",
-      iframeUrl: "https://drive.google.com/file/d/11p2h6_ykFv1xtPbrhRb1MSGWpVVD_o53/view?usp=sharing",
+      iframeUrl: PULSECHECKDOCUMENT
   },
   {
     image: ALSSPart3Image,
