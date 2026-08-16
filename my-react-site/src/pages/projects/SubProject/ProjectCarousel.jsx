@@ -8,9 +8,12 @@ import {
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-
-function ProjectCarousel({ projects }) {
+function ProjectCarousel({ projects = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  if (projects.length === 0) {
+    return null;
+  }
 
   const nextSlide = () => {
     setCurrentIndex(
@@ -32,21 +35,16 @@ function ProjectCarousel({ projects }) {
       sx={{
         position: "relative",
         width: "100%",
-        maxWidth: "900px",
+        height: "100%",
         mx: "auto",
       }}
     >
-      {/* Carousel Content */}
-      <Box
-        sx={{
-          width: "100%",
-          overflow: "hidden",
-        }}
-      >
+      {/* Image */}
+      {currentProject.image && (
         <Box
           component="img"
           src={currentProject.image}
-          alt={`Project ${currentIndex + 1}`}
+          alt={currentProject.alt || `Project ${currentIndex + 1}`}
           sx={{
             width: "100%",
             height: "100%",
@@ -54,7 +52,29 @@ function ProjectCarousel({ projects }) {
             display: "block",
           }}
         />
+      )}
 
+      {/* Iframe */}
+      {currentProject.iframeUrl && (
+        <Box
+          component="iframe"
+          src={currentProject.iframeUrl}
+          title={
+            currentProject.iframeTitle ||
+            `Project ${currentIndex + 1}`
+          }
+          sx={{
+            width: "100%",
+            height: "100%",
+            minHeight: "600px",
+            border: "none",
+            display: "block",
+          }}
+        />
+      )}
+
+      {/* Text */}
+      {currentProject.text && (
         <Typography
           sx={{
             mt: 3,
@@ -65,45 +85,51 @@ function ProjectCarousel({ projects }) {
         >
           {currentProject.text}
         </Typography>
-      </Box>
+      )}
 
       {/* Previous Button */}
-      <IconButton
-        onClick={previousSlide}
-        aria-label="Previous project"
-        sx={{
-          position: "absolute",
-          left: "1px",
-          top: "50%",
-          transform: "translateY(-50%)",
-          backgroundColor: "white",
-          color: "black",
-          "&:hover": {
-            backgroundColor: "#eeeeee",
-          },
-        }}
-      >
-        <ArrowBackIosNewIcon />
-      </IconButton>
+      {projects.length > 1 && (
+        <IconButton
+          onClick={previousSlide}
+          aria-label="Previous project"
+          sx={{
+            position: "absolute",
+            left: "15px",
+            top: "50%",
+            transform: "translateY(-50%)",
+            backgroundColor: "white",
+            color: "black",
+            zIndex: 2,
+            "&:hover": {
+              backgroundColor: "#eeeeee",
+            },
+          }}
+        >
+          <ArrowBackIosNewIcon />
+        </IconButton>
+      )}
 
       {/* Next Button */}
-      <IconButton
-        onClick={nextSlide}
-        aria-label="Next project"
-        sx={{
-          position: "absolute",
-          right: "15px",
-          top: "50%",
-          transform: "translateY(-50%)",
-          backgroundColor: "white",
-          color: "black",
-          "&:hover": {
-            backgroundColor: "#eeeeee",
-          },
-        }}
-      >
-        <ArrowForwardIosIcon />
-      </IconButton>
+      {projects.length > 1 && (
+        <IconButton
+          onClick={nextSlide}
+          aria-label="Next project"
+          sx={{
+            position: "absolute",
+            right: "15px",
+            top: "50%",
+            transform: "translateY(-50%)",
+            backgroundColor: "white",
+            color: "black",
+            zIndex: 2,
+            "&:hover": {
+              backgroundColor: "#eeeeee",
+            },
+          }}
+        >
+          <ArrowForwardIosIcon />
+        </IconButton>
+      )}
     </Box>
   );
 }
