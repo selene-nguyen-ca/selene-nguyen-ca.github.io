@@ -1,18 +1,16 @@
 import ProjectCarousel from "./ProjectCarousel";
 import { Box, Typography } from "@mui/material";
+import ALSSPart1aImage from "../../../assets/ALSS1a.png";
+import ALSSPart1bImage from "../../../assets/ALSS1b.png";
 
 const projects = [
   {
-    image: "https://picsum.photos/800/500?random=1",
-    text: "This is the first project description. This can contain information about the project.",
+    image: ALSSPart1aImage,
+    text: "Academic Learning Space Stewards Pilot Program: Part 1a - The Business Scenario",
   },
   {
-    image: "https://picsum.photos/800/500?random=2",
-    text: "This is the second project description. You can talk about your role, tools, and results here.",
-  },
-  {
-    image: "https://picsum.photos/800/500?random=3",
-    text: "This is the third project description. Eventually, we can replace this with your actual project content.",
+    image: ALSSPart1bImage,
+    text: "Academic Learning Space Stewards Pilot Program: Part 1b - The First Pulse",
   },
 ];
 

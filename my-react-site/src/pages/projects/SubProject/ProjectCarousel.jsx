@@ -49,7 +49,7 @@ function ProjectCarousel({ projects }) {
           alt={`Project ${currentIndex + 1}`}
           sx={{
             width: "100%",
-            height: "500px",
+            height: "100%",
             objectFit: "cover",
             display: "block",
           }}
@@ -58,8 +58,9 @@ function ProjectCarousel({ projects }) {
         <Typography
           sx={{
             mt: 3,
-            fontSize: "18px",
+            fontSize: "40px",
             lineHeight: 1.6,
+            color: "#000000",
           }}
         >
           {currentProject.text}
@@ -72,8 +73,8 @@ function ProjectCarousel({ projects }) {
         aria-label="Previous project"
         sx={{
           position: "absolute",
-          left: "15px",
-          top: "250px",
+          left: "1px",
+          top: "50%",
           transform: "translateY(-50%)",
           backgroundColor: "white",
           color: "black",
@@ -92,7 +93,7 @@ function ProjectCarousel({ projects }) {
         sx={{
           position: "absolute",
           right: "15px",
-          top: "250px",
+          top: "50%",
           transform: "translateY(-50%)",
           backgroundColor: "white",
           color: "black",
