@@ -8,6 +8,7 @@ import Navbar from "./navigator/NavBar.jsx";
 import Resume from "./pages/resumes/Resume.jsx";
 import ProjectsHome from "./pages/projects/ProjectHomePage.jsx";
 import Project1 from "./pages/projects/SubProject/Project1.jsx";
+import Project2 from "./pages/projects/SubProject/Project2.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/projects" element={<ProjectsHome />} />
             <Route path="/projects/project-1" element={<Project1 />} />
+            <Route path="/projects/project-2" element={<Project2 />} />
           </Routes>
         </main>
       </div>

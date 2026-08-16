@@ -278,3 +278,16 @@ body {
     font-size: 20px;
   }
 }
+.quest-link {
+  color: inherit !important;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.quest-link:hover {
+  color: #1a62ff !important;
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  opacity: 1;
+}

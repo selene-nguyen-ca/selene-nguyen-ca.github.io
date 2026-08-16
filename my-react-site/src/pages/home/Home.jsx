@@ -1,14 +1,16 @@
 import "./Home.css";
 
 import heroImg from "../../assets/4d9c01eebf2b12f0aa8d56d63c4f15a6.jpg";
-
 import emailIcon from "../../assets/1fdb0384a18d0cf572a59e091873cb65.png";
 import resumeIcon from "../../assets/3026bb1e5bcc2780f7c843b2b482b244.png";
 import linkedinIcon from "../../assets/67c923fa2ec7d8171e30e8e1ce4da597.png";
 
-import academicImg from "../../assets/756d48e13ccbc15f9dcd92d43ac53dd3.png";
-import pulseImg from "../../assets/2c19d0e0d6919604b164c5289340ea8c.png";
+import academicImg from "../../assets/ALSSLogo.png";
+import pulseImg from "../../assets/PulseCheckLogo.png";
 import clcImg from "../../assets/1cc87ef857d719e9040bc11b958e1f72.jpg";
+
+import { Link } from "react-router-dom";
+
 
 function Divider() {
   return <div className="divider" />;
@@ -91,7 +93,7 @@ function Home() {
             Computer Science &amp; Business Combined Major.
           </p>
 
-         <p>
+          <p>
             Throughout my journey at UBC, I took on many different missions. I explored
             fashion and style as a Peer Advisor at Chapman Learning Commons, tackled
             technical challenges while learning the ins and outs of the campus’s largest
@@ -107,7 +109,7 @@ function Home() {
           </p>
 
           <p>
-            Through these exciting journeys, my workstyle 
+            Through these exciting journeys, my workstyle
             has been shaped by the belief that the true strength
             of a person lies in their ability to be part of something
             larger than themselves: to envision what a united group can
@@ -141,10 +143,17 @@ function Home() {
           <Quest
             image={academicImg}
             title={
-              <>
+              <Link
+                to="/projects/project-1"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+                className="quest-link"
+              >
                 Academic Learning Space Stewards{" "}
                 <span className="strike">Pilot</span> Program
-              </>
+              </Link>
             }
             reference="Reference: Ricky Mahl - AV Team Lead (MedIT)"
           >
@@ -154,7 +163,7 @@ function Home() {
             </p>
 
             <p>
-              <strong>Solution:</strong> The dance of dragons, being fearless in the face of challenges, 
+              <strong>Solution:</strong> The dance of dragons, being fearless in the face of challenges,
               and the vison of a united team that can accomplish the impossible.
             </p>
           </Quest>
@@ -163,7 +172,18 @@ function Home() {
 
           <Quest
             image={pulseImg}
-            title="Pulse Check Application"
+            title={
+              <Link
+                to="/projects/project-1"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+                className="quest-link"
+              >
+                Pulse Check Application
+              </Link>
+            }
             imageClass="pulse-image"
             reference={
               <>
