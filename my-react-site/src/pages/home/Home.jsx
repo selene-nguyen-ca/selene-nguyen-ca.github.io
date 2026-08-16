@@ -93,10 +93,10 @@ function Home() {
 
           <p>
             Throughout my journey at UBC, I took on many missions: from
-            writing about tfashion &amp; style
+            writing about fashion &amp; style
             at Chapman Learning Commons as a Peer Advisor, to solving technical issues
             while learning the technicality of the largest recording studio on
-            campus, and eventually becoming a three-headed dragon student worker at
+            campus, and eventually becoming a three-headed student worker at
             MedIT. At MedIT, I assited the AV Team Lead turning 
             the pilot program: Academic Learning Space Stewards into a permanent milestone of MedIT.
             I designed workflow to enhance our day-to-day operations,  
