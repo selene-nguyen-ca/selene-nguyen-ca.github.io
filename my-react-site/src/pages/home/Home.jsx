@@ -86,26 +86,27 @@ function Home() {
         <section className="intro">
 
           <p>
-            Hello friends, I am a fresh-out-of-school graduate of the
+            Hello friends, I am a graduate of the
             University of British Columbia (UBC) with a degree of
             Computer Science &amp; Business Combined Major.
           </p>
 
           <p>
-            Throughout my journey at UBC, I took on many quests: from
-            writing about <em>“the philosophy of fashion &amp; style”</em>
-            at Chapman Learning Commons, to fighting technical issues
-            while weaving the epics of the largest recording studio on
-            campus, and eventually becoming a three-headed dragon at
-            MedIT. Each head had its own mission: one designed workflows
-            to enhance our day-to-day operations, another debated
-            security issues alongside scientific analysts on the Data
-            Management team, and the third celebrated my coworkers’
-            achievements by organizing countless events.
+            Throughout my journey at UBC, I took on many missions: from
+            writing about tfashion &amp; style
+            at Chapman Learning Commons as a Peer Advisor, to solving technical issues
+            while learning the technicality of the largest recording studio on
+            campus, and eventually becoming a three-headed dragon student worker at
+            MedIT. At MedIT, I assited the AV Team Lead turning 
+            the pilot program: Academic Learning Space Stewards into a permanent milestone of MedIT.
+            I designed workflow to enhance our day-to-day operations,  
+            worked closely with cross-unit: Data Management Team to automate redudant processes, 
+            and organized countless events to bring the team together.
           </p>
 
           <p>
-            Through these exciting journeys, I learned that the greatness
+            Through these exciting journeys, my workstyle 
+            has been shaped by the belief that the true strength
             of a person lies in their ability to be part of something
             larger than themselves: to envision what a united group can
             accomplish and make possible; to learn through collaboration
@@ -151,7 +152,8 @@ function Home() {
             </p>
 
             <p>
-              <strong>Solution:</strong> I turned myself 3-head-dragron...
+              <strong>Solution:</strong> The dance of dragons, being fearless in the face of challenges, 
+              and the vison of a united team that can accomplish the impossible.
             </p>
           </Quest>
 
