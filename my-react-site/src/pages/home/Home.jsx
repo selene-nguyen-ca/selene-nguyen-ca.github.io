@@ -17,12 +17,12 @@ function Divider() {
 function SocialLinks() {
   return (
     <div className="social-section">
-      <a href="mailto:selenemoor@gmail.com">
+      <a href="mailto:moorselene@gmail.com">
         <img src={emailIcon} alt="Email" />
       </a>
 
       <a
-        href="https://www.selene-nguyen-ca.github.io/resume"
+        href="https://selene-nguyen-ca.github.io/#/resume"
         target="_blank"
         rel="noopener noreferrer"
       >
