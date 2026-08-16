@@ -91,17 +91,19 @@ function Home() {
             Computer Science &amp; Business Combined Major.
           </p>
 
+         `<p>
+            Throughout my journey at UBC, I took on many different missions. I explored
+            fashion and style as a Peer Advisor at Chapman Learning Commons, tackled
+            technical challenges while learning the ins and outs of the campus’s largest
+            recording studio, and eventually became a three-headed student worker at MedIT.
+          </p>
+
           <p>
-            Throughout my journey at UBC, I took on many missions: from
-            writing about fashion &amp; style
-            at Chapman Learning Commons as a Peer Advisor, to solving technical issues
-            while learning the technicality of the largest recording studio on
-            campus, and eventually becoming a three-headed student worker at
-            MedIT. At MedIT, I assited the AV Team Lead turning 
-            the pilot program: Academic Learning Space Stewards into a permanent milestone of MedIT.
-            I designed workflow to enhance our day-to-day operations,  
-            worked closely with cross-unit: Data Management Team to automate redudant processes, 
-            and organized countless events to bring the team together.
+            At MedIT, I worked alongside the AV Team Lead to transform the Academic
+            Learning Space Stewards pilot program into a permanent part of MedIT. I
+            designed workflows to strengthen our day-to-day operations, collaborated
+            with the Data Management Team to automate redundant processes, and organized
+            countless events that brought our team closer together.
           </p>
 
           <p>
