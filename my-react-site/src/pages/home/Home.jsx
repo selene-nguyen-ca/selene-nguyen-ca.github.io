@@ -91,7 +91,7 @@ function Home() {
             Computer Science &amp; Business Combined Major.
           </p>
 
-         `<p>
+         <p>
             Throughout my journey at UBC, I took on many different missions. I explored
             fashion and style as a Peer Advisor at Chapman Learning Commons, tackled
             technical challenges while learning the ins and outs of the campus’s largest
