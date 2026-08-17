@@ -2,7 +2,7 @@ import { Box, Typography, Link, Divider } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import AcademicLearningSpaceImage from "../../assets/ALSSLogo.png";
 import PulseCheckImage from "../../assets/PulseCheckLogo.png";
-
+import CLCImage from "../../assets/1cc87ef857d719e9040bc11b958e1f72.jpg";
 const projects = [
   {
     title: "Academic Learning Space Stewards Pilot Program",
@@ -13,6 +13,11 @@ const projects = [
     title: "Pulse Check Application",
     image: PulseCheckImage,
     link: "/projects/project-2",
+  },
+  {
+    title: "Community Learning Center",
+    image: CLCImage,
+    link: "/projects/project-3",
   }
 ];
 

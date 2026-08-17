@@ -174,7 +174,7 @@ function Home() {
             image={pulseImg}
             title={
               <Link
-                to="/projects/project-1"
+                to="/projects/project-2"
                 style={{
                   color: "inherit",
                   textDecoration: "none",
@@ -209,7 +209,18 @@ function Home() {
 
           <Quest
             image={clcImg}
-            title="CLC Blog Contributor"
+            title={
+              <Link
+                to="/projects/project-3"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+                className="quest-link"
+              >
+                CLC Blog Contributor
+              </Link>
+            }
           >
             <p>
               You know ... I am kinda a nerd myself. From{" "}

@@ -57,28 +57,33 @@ function ProjectCarousel({ projects = [] }) {
       )}
 
       {/* Iframe */}
-      {currentProject.iframeUrl && (
-        <Box
-          sx={{
-            width: "100%",
-            height: "500px",
-            overflow: "hidden",
-            borderRadius: "8px",
-          }}
-        >
-          <Box
-            component="iframe"
-            src={currentProject.iframeUrl}
-            title={currentProject.iframeTitle || `Project ${currentIndex + 1}`}
-            sx={{
-              width: "100%",
-              height: "100%",
-              border: "none",
-              display: "block",
-            }}
-          />
-        </Box>
-      )}
+     {currentProject.iframeUrl && (
+  <Box
+    sx={{
+      width: "100%",
+      height: "500px",
+      overflow: "hidden",
+      borderRadius: "8px",
+    }}
+  >
+    <Box
+      component="iframe"
+      src={currentProject.iframeUrl}
+      title={
+        currentProject.iframeTitle || `Project ${currentIndex + 1}`
+      }
+      sx={{
+        width: "100%",
+        height: "100%",
+        border: "none",
+        display: "block",
+      }}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    />
+  </Box>
+)}
 
       {/* Text */}
       {currentProject.text && (
