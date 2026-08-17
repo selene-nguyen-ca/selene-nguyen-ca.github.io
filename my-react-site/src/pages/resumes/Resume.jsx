@@ -1,9 +1,10 @@
 import "./Resume.css";
+import ResumePDF from "../../assets/documents/SeleneNguyenResume.pdf";
 function Resume() {
   return (
     <main className="resume-page">
       <iframe
-        src="https://drive.google.com/file/d/1KUaa2uJek-8GJplyVCO7peaGnitZXDF8/preview"
+        src={ResumePDF}
         title="Selene Nguyen Resume"
         className="resume-pdf"
       />
