@@ -5,6 +5,7 @@ import ALSSPart1bImage from "../../../assets/ALSS1b.png";
 import ALSSPart3Image from "../../../assets/ALSS3.png";
 import WorkSnapshotImage from "../../../assets/WS.png";
 import PULSECHECKDOCUMENT from "../../../assets/documents/PULSE_CHECK_REPORT.pdf";
+import APIDocument from "../../../assets/API-Doc.png"
 
 const projects = [
   {
@@ -18,6 +19,10 @@ const projects = [
   {
     image: WorkSnapshotImage,
     text: "Work Snapshot Screenshot",
+  },
+  {
+    image: APIDocument,
+    text: "API Documentation - Sample",
   },
   {
     text: "Sample of the visualization of the data collected from ALSS activities. \n"+
