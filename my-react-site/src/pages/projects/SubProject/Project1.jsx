@@ -17,15 +17,17 @@ const projects = [
   },
   {
     image: WorkSnapshotImage,
-    text: "Work Snapshot Screenshot - for detailed documentation of the PULSE CHECK, check PULSE CHECK project tab",
+    text: "Work Snapshot Screenshot",
   },
   {
-    text: "Sample of the tableu visualization of the data collected from ALSS activities. Presented by Ricky Mahl, AV Lead prepared by me",
+    text: "Sample of the visualization of the data collected from ALSS activities. \n"+
+    "Presented by Ricky Mahl, AV Lead.",
     iframeUrl: "https://public.tableau.com/views/Book2_17606364963960/Story1?:showVizHome=no&:embed=true"
 
   },
   {
-     text: "Sample of the report generated from the data collected from ALSS activities. Presented by Ricky Mahl, AV Lead prepared by me",
+     text: "Sample of the report generated from the data collected from ALSS activities. \n" +
+     " Presented by Ricky Mahl, AV Lead.",
       iframeUrl: PULSECHECKDOCUMENT
   },
   {

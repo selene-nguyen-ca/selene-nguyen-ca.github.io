@@ -2,10 +2,11 @@ import ProjectCarousel from "./ProjectCarousel";
 import { Box, Typography } from "@mui/material";
 
 const projects = [
-  {
+    {
     text: "PULSE CHECK: Demo walkthrough",
-    iframeUrl: "https://www.youtube.com/embed/yaAC_cM4qLE?si=AhjwymBQwEfx20i5",
-  }
+    iframeUrl:
+      "https://www.youtube.com/embed/epjGjK64WAo?si=BKLUzJRHN0ZNJ5kX",
+  },
 ];
 
 
