@@ -8,6 +8,12 @@ const publications = [
     url: "https://learningcommons.ubc.ca/style-discovering-yourself/",
     type: "UBC Learning Commons",
   },
+    {
+      title: "I Tried It: A New Aesthetic for a Week",
+  description: "A personal account of experimenting with a new aesthetic for a week.",
+  url: "https://learningcommons.ubc.ca/i-tried-it-a-new-aesthetic-for-a-week/",
+  type: "UBC Learning Commons",
+},
   {
     title: "How To Use Audacity",
     description:
