@@ -37,7 +37,7 @@ const publications = [
 },
 ];
 
-function Project3() {
+function WritingSample() {
   return (
     <Box
       component="section"
@@ -132,4 +132,4 @@ function Project3() {
   );
 }
 
-export default Project3;
+export default WritingSample;

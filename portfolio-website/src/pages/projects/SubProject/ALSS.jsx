@@ -1,11 +1,11 @@
 import ProjectCarousel from "./ProjectCarousel";
 import { Box, Typography } from "@mui/material";
-import ALSSPart1aImage from "../../../assets/ALSS1a.png";
-import ALSSPart1bImage from "../../../assets/ALSS1b.png";
-import ALSSPart3Image from "../../../assets/ALSS3.png";
-import WorkSnapshotImage from "../../../assets/WS.png";
+import ALSSPart1aImage from "../../../assets/ALSS/ALSS1a.png";
+import ALSSPart1bImage from "../../../assets/ALSS/ALSS1b.png";
+import ALSSPart3Image from "../../../assets/ALSS/ALSS3.png";
+import WorkSnapshotImage from "../../../assets/ALSS/WS.png";
 import PULSECHECKDOCUMENT from "../../../assets/documents/PULSE_CHECK_REPORT.pdf";
-import APIDocument from "../../../assets/API-Doc.png"
+import APIDocument from "../../../assets/ALSS/API-Doc.png"
 
 const projects = [
   {
@@ -43,7 +43,7 @@ const projects = [
 
 
 
-function Project1() {
+function ALSS() {
   return (
     <Box
       component="section"
@@ -68,4 +68,4 @@ function Project1() {
   );
 }
 
-export default Project1;
+export default ALSS;

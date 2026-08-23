@@ -1,13 +1,13 @@
 import "./Home.css";
 
-import heroImg from "../../assets/4d9c01eebf2b12f0aa8d56d63c4f15a6.jpg";
-import emailIcon from "../../assets/1fdb0384a18d0cf572a59e091873cb65.png";
-import resumeIcon from "../../assets/3026bb1e5bcc2780f7c843b2b482b244.png";
-import linkedinIcon from "../../assets/67c923fa2ec7d8171e30e8e1ce4da597.png";
+import heroImg from "../../assets/icons/websiteBanner.jpg";
+import emailIcon from "../../assets/icons/mailIcon.png";
+import resumeIcon from "../../assets/icons/resumeIcon.png";
+import linkedinIcon from "../../assets/icons/linkedinIcon.png";
 
-import academicImg from "../../assets/ALSSLogo.png";
-import pulseImg from "../../assets/PulseCheckLogo.png";
-import clcImg from "../../assets/1cc87ef857d719e9040bc11b958e1f72.jpg";
+import academicImg from "../../assets/icons/ALSSLogo.png";
+import pulseImg from "../../assets/icons/PulseCheckLogo.png";
+import clcImg from "../../assets/icons/CLC.jpg";
 
 import { Link } from "react-router-dom";
 

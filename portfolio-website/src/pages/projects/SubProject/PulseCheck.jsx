@@ -10,7 +10,7 @@ const projects = [
 ];
 
 
-function Project2() {
+function PulseCheck() {
   return (
     <Box
       component="section"
@@ -35,4 +35,4 @@ function Project2() {
   );
 }
 
-export default Project2;
+export default PulseCheck;
