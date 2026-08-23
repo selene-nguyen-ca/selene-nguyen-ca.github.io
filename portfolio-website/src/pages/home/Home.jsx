@@ -218,7 +218,7 @@ function Home() {
                 }}
                 className="quest-link"
               >
-                CLC Blog Contributor
+                Publishing &amp; Writing Sample
               </Link>
             }
           >

@@ -62,6 +62,12 @@ function Navbar() {
           >
             Resume
           </Button>
+          <Button
+          component={Link}
+            to="/mundane-blog"
+            sx={{ color: "inherit" }}>
+            Every Letter I sent you
+          </Button>
 
           <Button
             component={Link}

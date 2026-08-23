@@ -15,7 +15,7 @@ const projects = [
     link: "/projects/project-2",
   },
   {
-    title: "Community Learning Center",
+    title: "Publishing & Writing Sample",
     image: CLCImage,
     link: "/projects/project-3",
   }
