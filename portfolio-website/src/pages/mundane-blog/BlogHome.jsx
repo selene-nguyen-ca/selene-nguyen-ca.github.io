@@ -1,5 +1,5 @@
 import "./BlogHome.css";
-import BlogBanner from "../../assets/blog/home-blog/every-letter-I-sent-you.png";
+import BlogBanner from "../../assets/blog/home-blog/every-letter-I-sent-you.jpg";
 
 function BlogHome() {
   return (
