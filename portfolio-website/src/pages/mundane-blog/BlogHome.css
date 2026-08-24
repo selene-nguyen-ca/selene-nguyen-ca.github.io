@@ -136,7 +136,8 @@ body {
 .blog-banner {
   width: 90%;
   max-width: 400px;
-  height: auto;
+  height: 90%;
+  max-height: 600px;
   object-fit: contain;
   margin-top: 20px;
 }
