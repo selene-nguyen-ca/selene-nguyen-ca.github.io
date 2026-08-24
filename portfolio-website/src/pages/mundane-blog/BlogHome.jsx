@@ -12,7 +12,7 @@ function BlogHome() {
 
     const timer = setTimeout(() => {
       navigate("/mundane-blog/list");
-    }, 1600); 
+    }, 2500); 
 
     return () => clearTimeout(timer);
   }, [isHovered, navigate]);
