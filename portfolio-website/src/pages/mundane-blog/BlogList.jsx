@@ -32,7 +32,7 @@ function BlogList() {
         }
 
         >
-          Last words
+          Coming Soon
         </Typography>
 
         <Typography
@@ -45,7 +45,7 @@ function BlogList() {
             textAlign: "left"
           }}
         >
-         The person who has written this blog has passed away.
+          I truly hate pickles in a burger.
         </Typography>
       </Container>
     </Box>
