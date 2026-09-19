@@ -47,14 +47,6 @@ function ContactCard() {
             <Typography sx={{ fontSize: "14px", color: "#777", mb: 0.5 }}>
               Email
             </Typography>
-
-            <Link
-              href="mailto:moorselene@gmail.com"
-              underline="hover"
-              sx={{ color: "black", fontSize: "18px" }}
-            >
-              moorselene@gmail.com
-            </Link>
           </Box>
 
           <Box>
